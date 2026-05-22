@@ -196,8 +196,8 @@ The long-term idea is a smartwatch that feels less like a disposable gadget and 
 
 These images show the current Airframe direction: PCB work, prototype assemblies, app concepts, puck designs, and watch renders.
 
-![241123783-0ecd49ee-87ff-4cde-9060-24d48c5cfade](https://github.com/user-attachments/assets/723f9d1d-d55b-43e2-903b-58e9a6d527c5)
-![241123687-09d4c374-2d0c-455f-a919-4a59138ad10e (1)](https://github.com/user-attachments/assets/98daed2b-03cf-461d-a02b-3312617687c1)
+<img width="1254" height="1254" alt="ChatGPT Image 3  Mai 2026, 15_25_02" src="https://github.com/user-attachments/assets/ef806b9b-368f-4967-a954-f2e2f85b1ad8" />
+<img width="1000" height="1000" alt="render62" src="https://github.com/user-attachments/assets/40a83e53-1ccc-4371-985c-e57543625d3d" />
 ![227036885-2fcf2675-f2de-432f-a74a-1f8b804b1e94](https://github.com/user-attachments/assets/dc71fa96-021d-498c-95cd-1b7353347f7b)
 ![211921454-efc67dd0-3a86-407a-a53b-dbce7d059ead](https://github.com/user-attachments/assets/d7088ce9-c997-458a-9e91-dc985a632ba4)
 ![248467414-c0ff1934-5fe4-4696-9213-ace8d471f633 (1)](https://github.com/user-attachments/assets/61887194-b57b-45d6-9b67-0e76043d813e)
