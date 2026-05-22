@@ -205,16 +205,12 @@ These images show the current Airframe direction: PCB work, prototype assemblies
 
 <img width="1254" height="1254" alt="ChatGPT Image 3  Mai 2026, 15_25_02" src="https://github.com/user-attachments/assets/ef806b9b-368f-4967-a954-f2e2f85b1ad8" />
 <img width="1000" height="1000" alt="render62" src="https://github.com/user-attachments/assets/40a83e53-1ccc-4371-985c-e57543625d3d" />
-![227036885-2fcf2675-f2de-432f-a74a-1f8b804b1e94](https://github.com/user-attachments/assets/dc71fa96-021d-498c-95cd-1b7353347f7b)
-![211921454-efc67dd0-3a86-407a-a53b-dbce7d059ead](https://github.com/user-attachments/assets/d7088ce9-c997-458a-9e91-dc985a632ba4)
-![248467414-c0ff1934-5fe4-4696-9213-ace8d471f633 (1)](https://github.com/user-attachments/assets/61887194-b57b-45d6-9b67-0e76043d813e)
-![248465391-174d9c86-a782-402c-9f40-d455ebd8f1ef](https://github.com/user-attachments/assets/6e123352-491e-40b5-af0f-9c0008e83fb9)
-![248465139-50e438e8-4756-424c-868c-67f0bfdfedbb](https://github.com/user-attachments/assets/a68f6fce-e5cd-4bab-bd28-738f808581b7)
-![248464943-83f1d933-ee97-4bca-aef9-81b796344c9b](https://github.com/user-attachments/assets/a76052a9-a93f-41f6-9087-b57bb3987414)
-![244199015-1c1b4e0c-4dde-461f-a7b2-ccfb9a86e202](https://github.com/user-attachments/assets/92ec8bbe-2105-4832-90a0-8a6831f65365)
-![244198923-7aafcdc3-8758-4472-8234-4ef7c5881dfe](https://github.com/user-attachments/assets/8199f988-7c31-4913-b2d4-b22e3f266962)
-![241293606-e9c87f54-92d8-475b-8504-8d2cf418f53a](https://github.com/user-attachments/assets/979d5030-795e-4fb5-97d5-64fe775a2b9d)
-![248467414-c0ff1934-5fe4-4696-9213-ace8d471f633](https://github.com/user-attachments/assets/172599c9-fc08-4d54-b06c-b6f6def764fe)
+<img width="4032" height="3024" alt="board_prototype_2922" src="https://github.com/user-attachments/assets/960b0ee9-b402-4263-82b7-059c36c2b6a3" />
+<img width="3024" height="4032" alt="watch_prototype_3025" src="https://github.com/user-attachments/assets/c6902741-2d32-4c2d-aa39-0bb9ff3a94c4" />
+<img width="2221" height="2304" alt="Render46 1" src="https://github.com/user-attachments/assets/fd53dc34-d73a-4668-a993-fa621adfe910" />
+<img width="1672" height="941" alt="ChatGPT Image 3  Mai 2026, 18_39_03" src="https://github.com/user-attachments/assets/546b640b-6635-4654-a929-d0f8b0dd06c2" />
+
+
 
 ---
 
