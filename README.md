@@ -1,6 +1,6 @@
 # Project Airframe — Product Showcase
 
-![244198878-646c22c4-e374-44d6-ac0f-87877a9a3229 (1)](https://github.com/user-attachments/assets/7a5e7fc0-9f43-4ed2-866d-ce484d9eea08)
+<img width="4000" height="3000" alt="render57" src="https://github.com/user-attachments/assets/d3f89bba-c040-440f-a4fb-2a46195fc61b" />
 
 **Project Airframe** is my current smartwatch project. The idea is to build a premium smartwatch around a removable internal **Tech Puck**, so the watch body can stay the same while the electronics inside can be serviced, repaired, or upgraded.
 
@@ -18,8 +18,9 @@ Airframe takes a different approach. The outer watch is treated more like a real
 
 That means the product can be improved without throwing away the whole object.
 
-![241293606-e9c87f54-92d8-475b-8504-8d2cf418f53a](https://github.com/user-attachments/assets/693da952-6e1c-453d-a6ec-a126f1c2ab03)
-![207326701-55a5ec6b-7f79-4fc3-8bfd-e77caa1cd0b9](https://github.com/user-attachments/assets/4d40084b-7ca1-4a87-8b07-80a2468a00cc)
+
+<img width="3300" height="2000" alt="render48" src="https://github.com/user-attachments/assets/91b90df5-8541-42a8-9453-a18f4cacdd1c" />
+<img width="1672" height="941" alt="ChatGPT Image 3  Mai 2026, 15_06_51" src="https://github.com/user-attachments/assets/d027cc96-c536-4028-ba48-e761e106296d" />
 
 ---
 
@@ -78,17 +79,20 @@ Current hardware direction includes:
 ## Hardware Gallery
 
 1. **Airframe smartwatch prototype**
-   ![248464943-83f1d933-ee97-4bca-aef9-81b796344c9b](https://github.com/user-attachments/assets/3a7f311c-2e9c-446f-94e9-5d0d884ee9e1)
+<img width="4032" height="3024" alt="watch_prototype_3043" src="https://github.com/user-attachments/assets/5eff5249-41cf-4322-b472-47555cfccfb7" />
 
 2. **Smartwatch components and PCB designs**  
-   ![248467414-c0ff1934-5fe4-4696-9213-ace8d471f633 (1)](https://github.com/user-attachments/assets/4cb15749-a03a-4ba1-91e2-6235cf5d4ce2)
+<img width="4032" height="3024" alt="integration_prototype_2981" src="https://github.com/user-attachments/assets/5d0059d0-7703-4eb6-bd0e-3c8a18e6826f" />
+
 
 3. **Assembled form — front and back**
-   ![248465391-174d9c86-a782-402c-9f40-d455ebd8f1ef](https://github.com/user-attachments/assets/88d6a27c-0659-45d0-a401-6666e3d667b4)
+<img width="5000" height="6000" alt="372151565-4cb15749-a03a-4ba1-91e2-6235cf5d4ce2" src="https://github.com/user-attachments/assets/9b456c1a-1031-4744-9428-d52d5f0c79a0" />
+
    
 4. **Tech Puck direction**
-   ![Screenshot 2024-09-30 174631](https://github.com/user-attachments/assets/f66506e5-2965-4dd6-ac76-fcacb692d002)
-   ![211921454-efc67dd0-3a86-407a-a53b-dbce7d059ead](https://github.com/user-attachments/assets/1e383d4d-ad63-4f46-b15b-b5678c955e0d)
+<img width="1030" height="770" alt="372154330-f66506e5-2965-4dd6-ac76-fcacb692d002" src="https://github.com/user-attachments/assets/acc64775-70be-4929-a871-c5e1cdaf2f3d" />
+<img width="1254" height="1254" alt="ChatGPT Image 3  Mai 2026, 18_41_12" src="https://github.com/user-attachments/assets/e31c0b89-b2a2-4b47-bad9-910a2bdab3ab" />
+
 
 ---
 
@@ -129,10 +133,11 @@ Current software direction includes:
 ### Software Images
 
 1. **Airframe mobile app dashboard**  
-![227036885-2fcf2675-f2de-432f-a74a-1f8b804b1e94](https://github.com/user-attachments/assets/7a61117e-b7ba-4130-8972-cf81db6b3340)
+<img width="5000" height="3000" alt="372151895-7a61117e-b7ba-4130-8972-cf81db6b3340" src="https://github.com/user-attachments/assets/3ca3b299-57d9-40e7-a2d5-f47575c1ca1f" />
+
 
 2. **Frame-OS / watch software direction**  
-![Screenshot 2024-09-30 175040](https://github.com/user-attachments/assets/5502f927-6beb-450d-83aa-34725e6c004d)
+<img width="821" height="481" alt="372154881-5502f927-6beb-450d-83aa-34725e6c004d-2" src="https://github.com/user-attachments/assets/a27f09c7-47ea-4546-8f40-a77b8c5e8016" />
 
 ---
 
@@ -153,7 +158,9 @@ The current electronics direction includes:
 ### PCB Design
 
 1. **PCB**
-   ![241123783-0ecd49ee-87ff-4cde-9060-24d48c5cfade](https://github.com/user-attachments/assets/2314dfe0-84d8-4635-9061-3e2ef1ed1341)
+<img width="3000" height="6000" alt="render52" src="https://github.com/user-attachments/assets/71d8173f-0fce-48ee-a62e-86f329025b68" />
+<img width="1254" height="1254" alt="ChatGPT Image 3  Mai 2026, 15_25_02" src="https://github.com/user-attachments/assets/0cb00d73-3b29-4312-83c2-5a895e70defc" />
+
 
 ---
 
