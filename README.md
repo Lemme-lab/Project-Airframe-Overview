@@ -1,137 +1,220 @@
-# Project Airframe
+# Project Airframe — Product Showcase
 
 ![244198878-646c22c4-e374-44d6-ac0f-87877a9a3229 (1)](https://github.com/user-attachments/assets/7a5e7fc0-9f43-4ed2-866d-ce484d9eea08)
 
-**Status:** Airframe is currently best understood as an R&D and portfolio repository. It is not packaged as a finished end-to-end build, and I would not recommend treating it as a ready-to-build DIY smartwatch kit yet. Contributions are still welcome, especially around documentation, cleanup, and focused subsystem work.
+**Project Airframe** is my current smartwatch project. The idea is to build a premium smartwatch around a removable internal **Tech Puck**, so the watch body can stay the same while the electronics inside can be serviced, repaired, or upgraded.
 
-**Airframe** is a long-running smartwatch project built around a different ownership model: keep the watch body, replace or upgrade the parts that age fastest. The repo brings together product thinking, hardware exploration, embedded experiments, companion app work, renders, and presentation assets for that broader goal.
+This page is not meant to be a build guide or an open-source README. It is a visual overview of where the project is right now: product renders, prototype hardware, PCB work, app screens, and the main product idea.
 
-## Table of Contents
-1. [Overview](#overview)
-2. [Product Direction](#product-direction)
-3. [What This Repo Contains](#what-this-repo-contains)
-4. [Hardware Snapshot](#hardware-snapshot)
-5. [Software Snapshot](#software-snapshot)
-6. [Current State](#current-state)
-7. [Contributing](#contributing)
-8. [Gallery](#gallery)
-9. [License](#license)
+The short version: **keep the watch, upgrade the technology inside it.**
 
-## Overview
+---
 
-Airframe is no longer framed here as "an open-source smartwatch you can build today." The more accurate description is a cross-disciplinary wearable project exploring a premium round watch, custom software, and a serviceable internal tech puck that can be repaired, replaced, or upgraded without discarding the whole object.
+## Product Idea
 
-The repo matters because it shows the project across multiple layers at once:
+Most smartwatches are treated like short-life electronics. After a few years the battery gets worse, the sensors improve, the chip feels old, and the whole watch gets replaced.
 
-- product direction and ownership model
-- hardware and electronics exploration
-- embedded and firmware experiments
-- companion software and interface work
-- visual development, storytelling, and launch thinking
+Airframe takes a different approach. The outer watch is treated more like a real watch: something you keep, wear, repair, and build attachment to. The fast-moving parts sit inside a replaceable puck.
 
-## Product Direction
-
-The current goals are centered on a durable smartwatch product rather than a generic dev board on the wrist:
-
-- **Serviceable Core**: The internal tech puck is intended to be the replaceable part, so the watch can last longer as batteries, radios, and compute platforms change.
-- **Premium Watch Object**: The outer watch should feel like something worth keeping, not disposable consumer electronics.
-- **Owner-Controlled Software**: Airframe explores a custom software stack across the watch and companion experience instead of depending entirely on a closed platform.
-- **Everyday Utility**: Health, activity, location, notifications, charging, and core watch functions remain the practical baseline.
-- **Longer Product Life**: The bigger idea is longevity, upgradeability, and better ownership rather than yearly replacement.
-
-## What This Repo Contains
-
-| Area | Purpose |
-| --- | --- |
-| [`Code/`](./Code/) | Embedded, mobile, and supporting code experiments |
-| [`Hardware/`](./Hardware/) | Hardware working files and related assets |
-| [`Images/`](./Images/) | Renders, visual exploration, and prototype imagery |
-| [`landing/`](./landing/) | Product-facing landing page and presentation layer |
-| [`github-showcase/`](./github-showcase/) | Sanitized portfolio snapshot of the project |
-| [`Reports/`](./Reports/) | Supporting written material and structured outputs |
-
-## Hardware Snapshot
-
-Airframe has explored multiple hardware directions rather than a single locked production architecture. Across those iterations, the watch concept has included:
-
-- **Round Touch Display**: 240 x 240 watch interface target
-- **Wireless Charging**: charging puck and battery-management exploration
-- **Connectivity**: BLE, Wi-Fi, NFC, and GPS/GNSS concepts
-- **Sensors**: ECG, pulse oximetry, temperature, pressure, IMU, compass, and related health/fitness inputs
-- **Compute Paths**: experiments around both ESP32-S3 and higher-end processor options
-
-The important point is not that every part is finished in one unified stack today, but that the repo documents the breadth of the hardware direction and the product logic behind it.
+That means the product can be improved without throwing away the whole object.
 
 ![241293606-e9c87f54-92d8-475b-8504-8d2cf418f53a](https://github.com/user-attachments/assets/693da952-6e1c-453d-a6ec-a126f1c2ab03)
 ![207326701-55a5ec6b-7f79-4fc3-8bfd-e77caa1cd0b9](https://github.com/user-attachments/assets/4d40084b-7ca1-4a87-8b07-80a2468a00cc)
 
-## Software Snapshot
+---
 
-The software side of Airframe spans more than firmware alone. The project includes:
+## What Airframe Is
 
-- **On-Watch UI Concepts**: interface exploration for a round smartwatch display
-- **Companion App Work**: Flutter-based mobile app experiments
-- **BLE Communication**: watch-to-phone/device connectivity work
-- **Health and Activity Flows**: dashboards and interaction concepts for wearable data
-- **Product Presentation**: a polished landing experience that explains the product idea clearly
+Airframe is built around two main parts:
 
-Runnable pieces live in their own folders. If you want to explore the software directly, start with:
+1. **The watch body**  
+   The visible, long-term part of the product. This includes the case, strap system, materials, buttons, protection, and overall look of the watch.
 
-- [`landing/README.md`](./landing/README.md)
-- [`Code/airframe_smartwatch_app/README.md`](./Code/airframe_smartwatch_app/README.md)
+2. **The Tech Puck**  
+   The internal technology core. This holds the parts that age faster: display, processor, battery, sensors, wireless charging, connectivity, and security hardware.
 
-### Software Images
+The goal is simple: the user should not have to replace the whole watch just because one internal part gets old.
 
-1. **Airframe Mobile App - Dashboard View**  
-![227036885-2fcf2675-f2de-432f-a74a-1f8b804b1e94](https://github.com/user-attachments/assets/7a61117e-b7ba-4130-8972-cf81db6b3340)
+---
 
-2. **Frame OS Concept**  
-![Screenshot 2024-09-30 175040](https://github.com/user-attachments/assets/5502f927-6beb-450d-83aa-34725e6c004d)
+## Main Features
 
-## Current State
+- Round smartwatch design with a premium watch-style direction
+- Replaceable internal Tech Puck
+- 240 × 240 px touch display
+- Multiple watch-face layouts
+- Companion app for settings, syncing, watch faces, and health views
+- Heart rate, SpO₂, ECG-style graphing, temperature, sleep, and activity tracking direction
+- Step counting, calories, IMU movement tracking, compass, pressure, and altitude support
+- Bluetooth LE sync
+- GPS/GNSS and NFC paths in the project
+- Wireless charging direction
+- Battery-management, protection, and fuel-gauge circuitry
+- Privacy direction with a keep-data-on-device concept
+- Security direction around signed updates and authenticated modules
 
-This repository is a mix of prototype work, concept material, implementation experiments, and presentation assets. A few practical notes:
+Some of this is already reflected in the repo, firmware, app screens, BOMs, and prototype assets. Other parts are still product direction and need more development before they can be treated as final.
 
-- the full system is not integrated into a polished production stack
-- some directions were explored in parallel and are incomplete
-- the repo is useful today as reference material, design/engineering evidence, and a base for focused follow-on work
-- the landing page and showcase reflect the current product framing better than the old build-guide README did
+---
 
-## Contributing
+## Hardware Direction
 
-Contributions are welcome, especially if they move the repo toward more clarity or better subsystem quality. Useful areas include:
+The current hardware work points toward a round smartwatch with a layered internal electronics core.
 
-- documentation cleanup
-- repo organization
-- firmware or app cleanup
-- hardware annotation and component mapping
-- focused experiments that support the serviceable-watch direction
+The main implemented firmware path is based around the **ESP32-S3**. There is also an **NXP i.MX 8 Quad** circular-board direction in the project assets, but that is more of a secondary exploration at this stage.
 
-If you want to contribute, open an issue or send a pull request with a narrowly scoped change.
+Current hardware direction includes:
 
-## Gallery
+- ESP32-S3-centered watch firmware path
+- 240 × 240 px circular touch display
+- Battery charging, protection, and fuel-gauge circuitry
+- Wireless charging direction
+- ECG, pulse oximeter, temperature, pressure, IMU, and compass sensor paths
+- Bluetooth LE, GPS/GNSS, and NFC hardware/software paths
+- Prototype boards and integration photos showing the project beyond just renders
 
-1. **Airframe Smartwatch Prototype**
+---
+
+## Hardware Gallery
+
+1. **Airframe smartwatch prototype**
    ![248464943-83f1d933-ee97-4bca-aef9-81b796344c9b](https://github.com/user-attachments/assets/3a7f311c-2e9c-446f-94e9-5d0d884ee9e1)
 
-2. **Components and PCB Design**
+2. **Smartwatch components and PCB designs**  
    ![248467414-c0ff1934-5fe4-4696-9213-ace8d471f633 (1)](https://github.com/user-attachments/assets/4cb15749-a03a-4ba1-91e2-6235cf5d4ce2)
 
-3. **Assembled Watch - Front and Back**
+3. **Assembled form — front and back**
    ![248465391-174d9c86-a782-402c-9f40-d455ebd8f1ef](https://github.com/user-attachments/assets/88d6a27c-0659-45d0-a401-6666e3d667b4)
-
-4. **Service / Tech Puck Exploration**
+   
+4. **Tech Puck direction**
    ![Screenshot 2024-09-30 174631](https://github.com/user-attachments/assets/f66506e5-2965-4dd6-ac76-fcacb692d002)
    ![211921454-efc67dd0-3a86-407a-a53b-dbce7d059ead](https://github.com/user-attachments/assets/1e383d4d-ad63-4f46-b15b-b5678c955e0d)
 
-5. **Additional Visuals**
-   ![241123783-0ecd49ee-87ff-4cde-9060-24d48c5cfade](https://github.com/user-attachments/assets/723f9d1d-d55b-43e2-903b-58e9a6d527c5)
-   ![241123687-09d4c374-2d0c-455f-a919-4a59138ad10e (1)](https://github.com/user-attachments/assets/98daed2b-03cf-461d-a02b-3312617687c1)
-   ![248465139-50e438e8-4756-424c-868c-67f0bfdfedbb](https://github.com/user-attachments/assets/a68f6fce-e5cd-4bab-bd28-738f808581b7)
-   ![244199015-1c1b4e0c-4dde-461f-a7b2-ccfb9a86e202](https://github.com/user-attachments/assets/92ec8bbe-2105-4832-90a0-8a6831f65365)
-   ![244198923-7aafcdc3-8758-4472-8234-4ef7c5881dfe](https://github.com/user-attachments/assets/8199f988-7c31-4913-b2d4-b22e3f266962)
-   ![248467414-c0ff1934-5fe4-4696-9213-ace8d471f633](https://github.com/user-attachments/assets/172599c9-fc08-4d54-b06c-b6f6def764fe)
+---
 
-## License
+## Tech Puck
 
-There is currently no repository-wide license file in this repo. Until one is added, treat the contents as shared for review and contribution discussion, not as a formally licensed open-source release.
+The Tech Puck is the main product idea behind Airframe.
+
+It is a compact round module that sits inside the watch body. Instead of making the whole smartwatch one sealed disposable unit, the parts that change fastest are grouped into a serviceable internal core.
+
+The puck can include:
+
+| Layer | What it handles |
+|---|---|
+| Display | Touch display, cover interface, panel, brightness, visual quality |
+| Compute | Processor, memory, connectivity, OS performance, local processing |
+| Battery | Cell, charging behavior, power management, battery health |
+| Sensors | Health, motion, environmental, and fitness sensors |
+| Charging / interface | Wireless charging coil, service contacts, NFC-related parts |
+| Security | Secure element, module authentication, encrypted key storage |
+
+The important part is that this should not feel like a DIY module or fragile experiment. The watch still has to feel sealed, premium, and reliable. Serviceability should make the product better, not make it feel less finished.
+
+---
+
+## Software Experience
+
+Airframe also has a companion app direction. The app is used for setup, Bluetooth sync, watch-face selection, settings, and health/activity views.
+
+Current software direction includes:
+
+- Bluetooth LE sync between the watch and phone
+- Watch-face selection
+- Health dashboards for heart rate, SpO₂, ECG-style data, temperature, sleep, and activity
+- Device settings for Bluetooth, NFC, GPS, software updates, messages, ECG, compass, and related features
+- Daily stats such as steps, calories, altitude, sleep history, and activity summaries
+- Privacy settings, including a direction for keeping sensitive data on-device
+
+### Software Images
+
+1. **Airframe mobile app dashboard**  
+![227036885-2fcf2675-f2de-432f-a74a-1f8b804b1e94](https://github.com/user-attachments/assets/7a61117e-b7ba-4130-8972-cf81db6b3340)
+
+2. **Frame-OS / watch software direction**  
+![Screenshot 2024-09-30 175040](https://github.com/user-attachments/assets/5502f927-6beb-450d-83aa-34725e6c004d)
+
+---
+
+## PCB & Electronics
+
+The electronics side of the project includes PCB work, BOMs, sensor paths, power-management parts, wireless features, and prototype board images.
+
+The current electronics direction includes:
+
+- ESP32-S3 watch firmware path
+- Secondary NXP i.MX 8 exploration
+- ECG, SpO₂, IMU, compass, temperature, pressure, and altitude-related sensing
+- Battery charger, battery protection, and fuel-gauge circuitry
+- NFC and GPS/GNSS paths
+- Wireless charging direction
+- PCB and prototype board work that supports the product direction
+
+### PCB Design
+
+1. **PCB**
+   ![241123783-0ecd49ee-87ff-4cde-9060-24d48c5cfade](https://github.com/user-attachments/assets/2314dfe0-84d8-4635-9061-3e2ef1ed1341)
+
+---
+
+## Ownership and Security
+
+The product is not only about swapping hardware. If the watch collects health, sleep, movement, location, and identity-related data, the user also needs control over that data.
+
+That means Airframe needs a security and ownership model from the start.
+
+The direction is:
+
+- Make it clear what stays on the device and what syncs
+- Encrypt sensitive health and personal data
+- Use signed firmware and software updates
+- Authenticate replaceable modules so the watch can detect genuine and compatible parts
+- Allow service and diagnostics without exposing private user data
+- Keep research or experimental algorithms away from production data until they are properly tested
+
+Security should be something the user can understand, not just something hidden in the background.
+
+---
+
+## Product Direction
+
+The current product direction is built around a few core points:
+
+- **Keep the watch longer** instead of replacing it every few years
+- **Upgrade the puck** when technology improves
+- **Replace the battery** without making the whole watch obsolete
+- **Treat the body like a premium object** that is worth maintaining
+- **Protect user data** as part of the ownership promise
+- **Use service and upgrades** as part of the product lifecycle
+- **Leave room for research partnerships** around health, sensors, AI, and battery optimization
+
+The long-term idea is a smartwatch that feels less like a disposable gadget and more like a watch you actually want to keep.
+
+---
+
+## Current Project Gallery
+
+These images show the current Airframe direction: PCB work, prototype assemblies, app concepts, puck designs, and watch renders.
+
+![241123783-0ecd49ee-87ff-4cde-9060-24d48c5cfade](https://github.com/user-attachments/assets/723f9d1d-d55b-43e2-903b-58e9a6d527c5)
+![241123687-09d4c374-2d0c-455f-a919-4a59138ad10e (1)](https://github.com/user-attachments/assets/98daed2b-03cf-461d-a02b-3312617687c1)
+![227036885-2fcf2675-f2de-432f-a74a-1f8b804b1e94](https://github.com/user-attachments/assets/dc71fa96-021d-498c-95cd-1b7353347f7b)
+![211921454-efc67dd0-3a86-407a-a53b-dbce7d059ead](https://github.com/user-attachments/assets/d7088ce9-c997-458a-9e91-dc985a632ba4)
+![248467414-c0ff1934-5fe4-4696-9213-ace8d471f633 (1)](https://github.com/user-attachments/assets/61887194-b57b-45d6-9b67-0e76043d813e)
+![248465391-174d9c86-a782-402c-9f40-d455ebd8f1ef](https://github.com/user-attachments/assets/6e123352-491e-40b5-af0f-9c0008e83fb9)
+![248465139-50e438e8-4756-424c-868c-67f0bfdfedbb](https://github.com/user-attachments/assets/a68f6fce-e5cd-4bab-bd28-738f808581b7)
+![248464943-83f1d933-ee97-4bca-aef9-81b796344c9b](https://github.com/user-attachments/assets/a76052a9-a93f-41f6-9087-b57bb3987414)
+![244199015-1c1b4e0c-4dde-461f-a7b2-ccfb9a86e202](https://github.com/user-attachments/assets/92ec8bbe-2105-4832-90a0-8a6831f65365)
+![244198923-7aafcdc3-8758-4472-8234-4ef7c5881dfe](https://github.com/user-attachments/assets/8199f988-7c31-4913-b2d4-b22e3f266962)
+![241293606-e9c87f54-92d8-475b-8504-8d2cf418f53a](https://github.com/user-attachments/assets/979d5030-795e-4fb5-97d5-64fe775a2b9d)
+![248467414-c0ff1934-5fe4-4696-9213-ace8d471f633](https://github.com/user-attachments/assets/172599c9-fc08-4d54-b06c-b6f6def764fe)
+
+---
+
+## Summary
+
+Airframe is a smartwatch project built around a premium body and a replaceable Tech Puck.
+
+The current project already shows the main direction: round watch design, prototype hardware, PCB work, app screens, health/activity features, wireless paths, and a serviceable internal architecture.
+
+The goal is to make a smartwatch that does not have to be thrown away when the technology inside gets old.
